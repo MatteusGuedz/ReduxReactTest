@@ -1,0 +1,67 @@
+* {
+    border: 1px solid transparent;
+    margin: 10px;
+}
+
+body {
+   
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.content {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-color: #cecece;
+   color: #000;
+   
+}
+
+.Tela {
+    width: 500px;
+    background-color:#000;
+    border-radius: 0px 0px 20px 20px;
+    padding-bottom: 20px;
+   
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-right:30px
+}
+
+.Titulo {
+    padding: 10px;
+    
+    
+}
+
+span {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ContTitles {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+}
+
+.buttons{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: darkgray;
+    font-weight: bold;
+}
+.buttons:hover {
+    background-color: #000;
+    color: white;
+}
